@@ -1,5 +1,5 @@
 # TinyUrlShortenerServiceApp
-TinyUrlShortenerServiceApp is a simple web application to read QR Codes
+TinyUrlShortenerServiceApp is a simple console application to make an URL shortener
 
 ## Getting Started
 Use these instructions to get the project up and running.
@@ -24,6 +24,17 @@ dotnet build
 4. Next, launch the console application by running:
 ```csharp
 dotnet run --project TinyUrlShortenerServiceApp <"your identifier to convert">
+```
+
+### Output Example
+If you launch the console application by running:
+```csharp
+dotnet run --project TinyUrlShortenerServiceApp 123456789
+```
+then you'll see the following output:
+```
+Encoded URL: cbsd5j
+Decoded URL: 123456789
 ```
 
 ### Structure of Project
