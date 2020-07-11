@@ -38,7 +38,8 @@ Decoded URL: 123456789
 ```
 
 ### Structure of Project
-TinyUrlShortenerServiceApp has only 1 layers that includes these folders
+TinyUrlShortenerServiceApp has only **1 project**;
+* TinyUrlShortenerServiceApp
     * Interfaces    
     * Services
     
