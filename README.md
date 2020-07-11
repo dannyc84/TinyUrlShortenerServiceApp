@@ -1,6 +1,41 @@
 # TinyUrlShortenerServiceApp
 TinyUrlShortenerServiceApp is a simple console application to make an URL shortener
 
+## Background
+A [bijective function](https://en.wikipedia.org/wiki/Bijection) is necessary to find an inverse function g('abc') = 123 for our f(123) = 'abc' function.
+
+We can start from a simple alphabet to use. For example the alphabet: [a-zA-Z0-9]. It contains 62 letters.
+We can take an auto-generated, unique numerical key (the auto-incremented id of a SQL table for example).
+
+For this example, I will use 12510 (125 with a base of 10).
+
+Now you have to convert 12510 to X62 (base 62).
+
+12510 = 2×621 + 1×620 = [2,1]
+
+This requires the use of integer division and modulo. A pseudo-code example:
+
+digits = []
+
+while num > 0
+  remainder = modulo(num, 62)
+  digits.push(remainder)
+  num = divide(num, 62)
+
+digits = digits.reverse
+Now map the indices 2 and 1 to your alphabet. This is how your mapping (with an array for example) could look like:
+
+0  → a
+1  → b
+...
+25 → z
+...
+52 → 0
+61 → 9
+With 2 → c and 1 → b, you will receive cb62 as the shortened URL.
+
+http://shor.ty/cb
+
 ## Getting Started
 Use these instructions to get the project up and running.
 
