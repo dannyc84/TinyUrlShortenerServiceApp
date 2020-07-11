@@ -1,5 +1,5 @@
 # TinyUrlShortenerServiceApp
-QRCodeReaderApp is a simple web application to read QR Codes
+TinyUrlShortenerServiceApp is a simple web application to read QR Codes
 
 ## Getting Started
 Use these instructions to get the project up and running.
@@ -38,7 +38,7 @@ This folder contains the contract of the application service injected into the T
 This folder contains the implementation of the application service injected into the TinyUrlShortenerServiceApp.
 
 ### Starting Point
-The application's main **starting point** is the .NET Core console project. This is a classical console application, with a public static void Main method in Program.cs. It uses the Nuget package "Microsoft.Extensions.DependencyInjection" to set up Microsoft’s dependency injection container.
+The application's main **starting point** is the .NET Core console project. This is a classical console application, with a public static void Main method in Program.cs. It uses the Nuget package "Microsoft.Extensions.DependencyInjection" to set up Microsoftâ€™s dependency injection container.
 
 ## Technologies
 * .NET Core 3.1
