@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using System.Text;
-using TinyUrlShortenerService.Interfaces;
+using TinyUrlShortenerServiceApp.Interfaces;
 
-namespace TinyUrlShortenerService.Services
+namespace TinyUrlShortenerServiceApp.Services
 {
     public class UrlShortenerService : IUrlShortenerService
     {

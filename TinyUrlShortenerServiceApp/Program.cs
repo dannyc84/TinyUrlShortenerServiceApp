@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using TinyUrlShortenerService.Interfaces;
-using TinyUrlShortenerService.Services;
+using TinyUrlShortenerServiceApp.Interfaces;
+using TinyUrlShortenerServiceApp.Services;
 
-namespace TinyUrlShortenerService
+namespace TinyUrlShortenerServiceApp
 {
     public class Program
     {

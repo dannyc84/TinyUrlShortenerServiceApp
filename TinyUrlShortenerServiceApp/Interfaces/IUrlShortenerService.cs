@@ -1,4 +1,4 @@
-﻿namespace TinyUrlShortenerService.Interfaces
+﻿namespace TinyUrlShortenerServiceApp.Interfaces
 {
     public interface IUrlShortenerService
     {

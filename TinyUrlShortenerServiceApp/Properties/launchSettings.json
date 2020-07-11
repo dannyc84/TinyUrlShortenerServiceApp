@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "TinyUrlShortenerServiceApp": {
-      "commandName": "Project",
-      "commandLineArgs": "http://www.google.com"
-    }
-  }
-}

@@ -1,7 +1,7 @@
 ﻿using System;
-using TinyUrlShortenerService.Interfaces;
+using TinyUrlShortenerServiceApp.Interfaces;
 
-namespace TinyUrlShortenerService
+namespace TinyUrlShortenerServiceApp
 {
     public class TinyUrlShortenerApp
     {
